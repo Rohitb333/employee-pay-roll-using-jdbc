@@ -28,7 +28,6 @@ public class EmployeePayRollService {
                 employee.setGender(resultSet.getString("Gender"));
                 employee.setDeductions(resultSet.getDouble("Deductions"));
                 employee.setTaxablePay(resultSet.getDouble("TaxablePay"));
-                employee.setIncomeTax(resultSet.getDouble("IncomeTax"));
                 employee.setNetPay(resultSet.getDouble("NetPay"));
 
                 empList.add(employee);
@@ -89,7 +88,6 @@ public class EmployeePayRollService {
                 employee.setGender(resultSet.getString("Gender"));
                 employee.setDeductions(resultSet.getDouble("Deductions"));
                 employee.setTaxablePay(resultSet.getDouble("TaxablePay"));
-                employee.setIncomeTax(resultSet.getDouble("IncomeTax"));
                 employee.setNetPay(resultSet.getDouble("NetPay"));
 
                 empSelected.add(employee);
